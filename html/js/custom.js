@@ -33,6 +33,9 @@ $(document).ready(function(){
 		$(this).addClass('current');
 		$("#"+tab_id).addClass('current');
 	})
+	// data-table
+	$('#example').DataTable();
+	$('#example1').DataTable();
 
 });
 

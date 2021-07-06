@@ -11,52 +11,52 @@
 			  				</div>
 	  						<ul class="city-list">
 	  							<li>
-	  								<a href="javascript:void(0)">ahmedabad</a>
+	  								<a href="gujrat.php">gujrat</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">baroda</a>
+	  								<a href="Kolkata.php">Kolkata</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">surat</a>
+	  								<a href="uttarpradesh.php">Uttarpradesh</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">bhuj</a>
+	  								<a href="Raipur.php">Raipur</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">rajkot</a>
+	  								<a href="Nashik.php">Nashik</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">junagath</a>
+	  								<a href="Mumbai.php">Mumbai</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">himatnagar</a>
+	  								<a href="Delhi.php">Delhi</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">anand</a>
+	  								<a href="Panjab.php">Panjab</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">nadiad</a>
+	  								<a href="Goa.php">Goa</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">bhavnagar</a>
+	  								<a href="Pune.php">Pune</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">bharuch</a>
+	  								<a href="Jaipur.php">Jaipur</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">gandhinagar</a>
+	  								<a href="Chennai.php">Chennai</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">porbandar</a>
+	  								<a href="Patna.php">Patna</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">kandala</a>
+	  								<a href="Kochi.php">Kochi</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">kalol</a>
+	  								<a href="Jammu.php">Jammu</a>
 	  							</li>
 	  							<li>
-	  								<a href="javascript:void(0)">patan</a>
+	  								<a href="Indore.php">Indore</a>
 	  							</li>
 	  						</ul>
 	  					</div>
@@ -77,6 +77,12 @@
 	  							<p>Contact Us at <strong>011 - 39595395</strong> for any queries</p>
 	  						</div>
 	  					</form>
+						
+						<div class="footer-logo">
+							<a href="index.php">
+								<img src="images/smart-cargo.svg" alt="log-img">
+							</a>
+						</div>
 	  				</div>
 	  			</div>
 	  		</div>

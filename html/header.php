@@ -10,6 +10,7 @@
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 		<!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css"> -->
 		<link rel="stylesheet" type="text/css" href="css/slick.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -29,6 +30,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 	</head>
 	<body class="body-area">
@@ -36,28 +38,53 @@
 		<!-- ======= Header ======= -->
 	  	<header id="header" class="fixed-top ">
 		    <div class="container">
-		      <div class="row">
+		      <div class="row align-items-center">
 		      	<div class="col-xl-2">
 			       <div class="left-logo">
 			       		<a href="index.php" class="logo">
-			       			<img src="images/logo.png" alt="log-img">
+			       			<img src="images/smart-cargo.svg" alt="log-img">
 			       		</a>
 			       </div>
 		      	</div>
-		      	<nav class="col-xl-7 nav-menu">
-			        <ul>
+		      	<nav class="col-xl-10 nav-menu text-right">
+			        <ul class="menulist">
 			          <li class="active"><a href="index.php">Home</a></li>
 			          <li><a href="about.php">About</a></li>
 			          <li><a href="GPS.php">gps devices</a></li>
 			          <li><a href="faq.php">faq</a></li>
 			          <li><a href="guide.php">fleet guide</a></li>
 			          <li><a href="contact.php">Contact</a></li>
+					  <li>
+						<div class="dropdown drop-btn text-right">
+							<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-user"></i>
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								<button class="dropdown-item" type="button">Profile</button>
+								<button class="dropdown-item" type="button">Logout</button>
+							</div>
+						</div>
+					  </li>
 			        </ul>
+					<a href="login.php" class="section-btn mr-3 scrollto">log in</a>
+			      	<a href="Register.php" class="link-btn scrollto">register</a>
 		      	</nav><!-- .nav-menu -->
-			    <div class="col-xl-3">
+			    <!-- <div class="col-xl-3">
 			      	<a href="login.php" class="section-btn mr-3 scrollto">log in</a>
 			      	<a href="Register.php" class="link-btn scrollto">register</a>
-			     </div>
+			     </div> -->
+				 <!-- <div class="col-xl-1">
+					<div class="dropdown drop-btn text-right">
+						<button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-user"></i>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+							<button class="dropdown-item" type="button">Action</button>
+							<button class="dropdown-item" type="button">Another action</button>
+							<button class="dropdown-item" type="button">Something else here</button>
+						</div>
+					</div> -->
+				</div>
 		      </div>
 		    </div>
 	  	</header><!-- End Header -->

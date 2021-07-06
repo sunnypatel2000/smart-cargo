@@ -1,4 +1,4 @@
-	<?php  $title="ahmedabad"; include 'header.php';?>
+	<?php  $title="Patna"; include 'header.php';?>
 	
 	 <!-- banner-section -->
 	  	<section class="banner-section">
@@ -6,7 +6,7 @@
 				<div class="container">
 			  		<div class="row">
 			  			<div class="banner-textbox">
-			  				<h1>Truck Booking Service in Ahmedabad</h1>
+			  				<h1>Truck Booking Service in Patna</h1>
 			  				<!-- <p>Let´s get started. Select a service you´re interested in...</p> -->
 			  				<div class="btn-box">
 			  					<a href="javascript:void(0)" class="section-btn scrollto" data-toggle="modal" data-target="#exampleModalCenter">need a truck</a>
@@ -23,9 +23,18 @@
 	  			<div class="row">
 	  				<div class="col-12">
 	  					<div class="city-info">
-	  						<strong>Truck Booking Varanasi - Uttar Pradesh</strong>
+	  						<strong>Truck Booking Patna</strong>
 	  						<p>
-	  							<strong>Bookatruck</strong> is India's leading truck booking portal. We pick loads from&nbsp;<strong>Varanasi</strong> and deliver to any location across India. With a simple click of a button you can get best rates and book trucks online. To facilitate easy truck booking we also have our mobile app, which is convenient and simple to use. We assure you the best price for your requirements with a range of attached and dedicated fleet Available to service your needs. We also provide complete supply chain solutions and make truck transportation easier. We have over 1000 verified and reliable truck and Lorry owners registered on the website. We have already provided our services to over 100 companies for their freight requirements. These companies are very satisfied and pleased with our services and regularly post their requirements on our portal or through our mobile apps. Therefore simply register or download our mobile app to fulfil all your logistics need.
+	  							<strong>Bookatruck</strong> is India's leading truck booking portal. We pick loads from&nbsp;
+								  <strong>Patna</strong> and deliver to any location across India. With a simple click of a button you 
+								  can get best rates and book trucks online. To facilitate easy truck booking we also have our mobile app, 
+								  which is convenient and simple to use. We assure you the best price for your requirements with a range 
+								  of attached and dedicated fleet Available to service your needs. We also provide complete supply chain 
+								  solutions and make truck transportation easier. We have over 1000 verified and reliable truck and Lorry 
+								  owners registered on the website. We have already provided our services to over 100 companies for their 
+								  freight requirements. These companies are very satisfied and pleased with our services and regularly 
+								  post their requirements on our portal or through our mobile apps. Therefore simply register or download 
+								  our mobile app to fulfil all your logistics need.
 	  						</p>
 	  					</div>
 	  				</div>

@@ -2157,8 +2157,8 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: #212529 !important;
+  background-color: #fff!important;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -2585,15 +2585,15 @@ textarea.form-control-lg {
 .form-floating > .form-control, .form-floating > .dataTable-input,
 .form-floating > .form-select,
 .form-floating > .dataTable-selector {
-  height: calc(3.5rem + 2px);
-  padding: 1rem 0.75rem;
+  height: calc(2.5rem + 2px);
+    padding: 0.25rem 0.75rem;
 }
 .form-floating > label {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
-  padding: 1rem 0.75rem;
+  padding: 0.50rem 0.75rem;
   pointer-events: none;
   border: 1px solid transparent;
   transform-origin: 0 0;
@@ -2605,19 +2605,19 @@ textarea.form-control-lg {
   }
 }
 .form-floating > .form-control::-moz-placeholder, .form-floating > .dataTable-input::-moz-placeholder {
-  color: transparent;
+  color: #ccc;
 }
 .form-floating > .form-control:-ms-input-placeholder, .form-floating > .dataTable-input:-ms-input-placeholder {
-  color: transparent;
+  color: #ccc;
 }
 .form-floating > .form-control::placeholder, .form-floating > .dataTable-input::placeholder {
-  color: transparent;
+  color: #ccc;
 }
 .form-floating > .form-control:not(:-moz-placeholder-shown), .form-floating > .dataTable-input:not(:-moz-placeholder-shown) {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
-.form-floating > .form-control:not(:-ms-input-placeholder), .form-floating > .dataTable-input:not(:-ms-input-placeholder) {
+/*.form-floating > .form-control:not(:-ms-input-placeholder), .form-floating > .dataTable-input:not(:-ms-input-placeholder) {
   padding-top: 1.625rem;
   padding-bottom: 0.625rem;
 }
@@ -2652,7 +2652,7 @@ textarea.form-control-lg {
 .form-floating > .form-control:-webkit-autofill ~ label, .form-floating > .dataTable-input:-webkit-autofill ~ label {
   opacity: 0.65;
   transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
-}
+}*/
 
 .input-group {
   position: relative;
