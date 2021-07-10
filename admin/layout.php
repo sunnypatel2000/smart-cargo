@@ -7,6 +7,13 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title><?php echo $title; ?></title>
+
+        <!-- fav-icon -->
+		<!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png"> -->
+		<link rel="icon" href="assets/img/favicon.ico">
+
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom.css" rel="stylesheet" />
@@ -60,15 +67,15 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-truck-loading"></i></div>
                                 need management
                             </a>
-                            <a class="nav-link" href="transaction Management.php">
+                            <a class="nav-link" href="transaction-management.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-history"></i></div>
                                 transaction
                             </a>
-                            <a class="nav-link" href="account Management.php">
+                            <a class="nav-link" href="account-management.php">
                                 <div class="sb-nav-link-icon"><i class="far fa-user"></i></div>
                                 account
                             </a>
-                            <a class="nav-link" href="record List.php">
+                            <a class="nav-link" href="record-list.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-clipboard"></i></div>
                                 record List
                             </a>

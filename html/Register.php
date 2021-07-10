@@ -11,8 +11,11 @@
 		                <div class="wrap d-flex">
 		                	<div class="col-md-6 text-wrap left-box p-4 p-lg-5 text-center d-flex align-items-center">
 		                        <div class="text w-100">
+									<a href="login.php" class="cargo-logo">
+										<img src="images/smart-cargo1.svg" alt="smart-cargo" title="Smart cargo"> 
+									</a>
 		                            <h2>Welcome to Sign Up</h2>
-		                            <p class="my-1">Don't have an account?</p>
+		                            <!-- <p class="my-1">Don't have an account?</p> -->
 		                            <a href="#" class="btn btn-white btn-outline-white">Sign In</a>
 		                        </div>
 		                    </div>
@@ -21,16 +24,6 @@
 		                            <div class="w-100">
 		                                <h3 class="mb-4">Sign Up</h3>
 		                            </div>
-		                            <!-- <div class="w-100">
-		                                <p class="social-media d-flex justify-content-end">
-		                                    <a href="#"
-		                                        class="social-icon d-flex align-items-center justify-content-center"><span
-		                                            class="fa fa-facebook"></span></a>
-		                                    <a href="#"
-		                                        class="social-icon d-flex align-items-center justify-content-center"><span
-		                                            class="fa fa-twitter"></span></a>
-		                                </p>
-		                            </div> -->
 		                        </div>
 		                        <form action="#" class="signin-form">
 		                            <div class="form-group mb-3">
@@ -58,7 +51,7 @@
 		                                <input type="password" class="form-control" placeholder="Confirm Password" required>
 		                            </div>
 		                            <div class="form-group">
-		                                <button type="submit" class="form-control btn submit px-3">Sign In</button>
+		                                <button type="submit" class="form-control btn submit px-3">Sign Up	</button>
 		                            </div>
 		                            <div class="form-group d-md-flex justify-content-between form-box">
 		                                <div class="custom-control custom-checkbox ">

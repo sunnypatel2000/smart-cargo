@@ -8,8 +8,11 @@
 		                <div class="wrap d-flex">
 		                	<div class="col-md-6 text-wrap left-box p-4 p-lg-5 text-center d-flex align-items-center">
 		                        <div class="text w-100">
-		                            <h2>Welcome to login</h2>
-		                            <p class="my-1">Don't have an account?</p>
+									<a href="login.php" class="cargo-logo">
+										<img src="images/smart-cargo1.svg" alt="smart-cargo" title="Smart cargo"> 
+									</a>
+		                            <h2>Welcome to  login</h2>
+		                            <!-- <p class="my-1">Don't have an account?</p> -->
 		                            <a href="#" class="btn btn-white btn-outline-white">Sign Up</a>
 		                        </div>
 		                    </div>

@@ -616,3 +616,6 @@ th{color: #000;font-weight: bold;}
 .dataTables_wrapper .dataTables_paginate,.dataTables_wrapper .dataTables_info{padding-top: 20px;}
 .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
 {border-radius: 50%;}
+
+/* logo-sign up ang login */
+.text .cargo-logo{width: 363px;height: 152px;display: inline-block;margin-bottom: 20px;}
